@@ -12,7 +12,7 @@ struct QuoteConfigurationIntent: WidgetConfigurationIntent {
     @Parameter(title: "Font", default: .system)
     var fontChoice: FontOption
 
-    @Parameter(title: "Text Color", default: .white)
+    @Parameter(title: "Text Color", default: .black)
     var textColor: ColorOption
 
     @Parameter(title: "Background Opacity (0 = fully see-through)", default: 0.0)
